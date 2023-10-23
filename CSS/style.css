@@ -7,29 +7,10 @@ ul li {
     position: relative;
 }
 
-/* Style for the checkbox icon before list items */
-ul li::before {
-    content: '';
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image: url(../assets/unchecked.png);
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
-}
-
 /* Style for checked list items */
 ul li.checked {
     color: #555;
     text-decoration: line-through;
-}
-
-/* Style for the checkbox icon of checked list items */
-ul li.checked::before {
-    background-image: url(../assets/checked.png);
 }
 
 ul li span {
